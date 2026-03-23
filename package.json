@@ -1,34 +1,40 @@
 {
   "name": "metalpricehub",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "private": true,
   "description": "Live Metal Prices — Gold, Silver, Platinum, Palladium",
   "author": "MrGodara121",
   "license": "MIT",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+
   "dependencies": {
     "next": "15.2.8",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "axios": "^1.6.0",
     "chart.js": "^4.4.0",
     "react-chartjs-2": "^5.2.0",
-    "axios": "^1.6.0",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "googleapis": "^133.0.0",
+    "jsonwebtoken": "^9.0.2"
   },
+
   "devDependencies": {
+    "typescript": "^5.0.0",
     "@types/node": "^20.0.0",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "eslint": "^8.57.1",
-    "eslint-config-next": "15.2.8",
-    "typescript": "^5.0.0"
+    "eslint-config-next": "15.2.8"
   },
+
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.17.0"
   }
 }
