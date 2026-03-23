@@ -5,7 +5,6 @@ export default function Home() {
   const router = useRouter()
 
   useEffect(() => {
-    // Redirect to default language (English)
     router.push('/en')
   }, [])
 
